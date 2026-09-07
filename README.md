@@ -1,81 +1,122 @@
-# 🚀 LeetCode Practice 👨‍💻  
+# 🚀 LeetCode Practice 👨‍💻
 
-Welcome to my **LeetCode** repository! This is where I grind coding problems, sharpen my problem-solving skills, and explore new algorithms & data structures.  
+Welcome to my **LeetCode Practice Repository**!
 
----
+This repository contains my solutions to LeetCode problems as I work on improving my **problem-solving, SQL, algorithms, and data structures** skills.
 
-## 📌 About  
-
-This repo contains my solutions to various **LeetCode** problems, categorized by difficulty and topic. My goal is to:  
-
-✅ **Improve coding efficiency**  
-✅ **Master data structures & algorithms**  
-✅ **Ace technical interviews**  
-
-Every solution is written in a **clean, optimized, and well-documented** way! ✨  
+The goal is simple: **practice consistently, understand the logic, and write efficient solutions.** 💻✨
 
 ---
 
-## 🗂 Problem Categories  
+## 📌 Goals
 
-📌 **Algorithms**  
-- Sorting  
-- Searching  
-- Recursion & Backtracking  
-- Dynamic Programming  
-
-📌 **Data Structures**  
-- Arrays & Strings  
-- Linked Lists  
-- Trees & Graphs  
-- Stacks & Queues  
-
-📌 **Topics**  
-- Bit Manipulation  
-- Two Pointers  
-- Sliding Window  
-- Greedy & Divide and Conquer  
+* 🧠 Improve problem-solving skills
+* 🗄️ Strengthen **SQL & database** knowledge
+* ⚡ Write clean and efficient solutions
+* 📚 Master algorithms and data structures
+* 🎯 Prepare for technical interviews
+* 📈 Track my progress through consistent practice
 
 ---
 
-## 🚀 How to Use  
+## 🗂️ Topics
 
-Clone this repository:  
+### 🗄️ SQL & Databases
+
+* SELECT & WHERE
+* GROUP BY & HAVING
+* Aggregate Functions
+* JOINs
+* Subqueries
+* CTEs
+* Window Functions
+* Date & Time Functions
+* Data Aggregation & Analysis
+
+### 🧮 Algorithms
+
+* Sorting
+* Searching
+* Recursion & Backtracking
+* Dynamic Programming
+* Greedy Algorithms
+* Divide and Conquer
+
+### 🧱 Data Structures
+
+* Arrays & Strings
+* Linked Lists
+* Stacks & Queues
+* Hash Tables
+* Trees
+* Graphs
+
+### 💡 Problem-Solving Techniques
+
+* Two Pointers
+* Sliding Window
+* Binary Search
+* Bit Manipulation
+* Prefix Sum
+* Hashing
+
+---
+
+## 🚀 How to Use
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/adibaruet/leetcode.git
-cd leetcode-practice
+cd leetcode
 ```
 
-Pick a problem, check the solution, and run it!  
+Browse the solutions by topic or problem and use them as a reference while practicing.
+
+> **Note:** Try solving each problem yourself before checking the solution. 👀
 
 ---
 
-## 💡 Problem-Solving Approach  
+## 🧠 Problem-Solving Approach
 
-1️⃣ **Understand the problem**  
-2️⃣ **Identify edge cases**  
-3️⃣ **Choose the best approach**  
-4️⃣ **Write clean & efficient code**  
-5️⃣ **Optimize and analyze time complexity**  
+For each problem, I try to follow these steps:
 
-  
-
----
-
-## 🤝 Contributing  
-
-Want to contribute or discuss solutions? Feel free to:  
-
-- 🌟 Star this repo  
-- 🛠 Suggest optimizations  
-- 🔥 Share better approaches  
+1. 🔍 Understand the problem
+2. 📝 Identify the requirements and edge cases
+3. 💡 Develop a solution approach
+4. 💻 Implement the solution
+5. ⏱️ Analyze time and space complexity
+6. 🔧 Look for possible optimizations
+7. 📚 Learn from alternative approaches
 
 ---
 
-Resource
-https://ashef.gitbook.io/cse201
+## 📈 Progress
 
-🚀 _Happy Coding!_ 🎯  
+This repository will continuously grow as I solve more problems and explore new concepts.
 
+**Practice → Understand → Optimize → Repeat.** 🔥
 
+---
+
+## 📚 Resources
+
+* [LeetCode](https://leetcode.com/)
+* [CSE 201 Resources](https://ashef.gitbook.io/cse201)
+
+---
+
+## 🤝 Contributions
+
+This is primarily a personal learning repository, but suggestions and alternative approaches are always welcome.
+
+Feel free to:
+
+* ⭐ Star the repository
+* 💡 Suggest better approaches
+* 🛠️ Point out possible optimizations
+* 💬 Discuss different solutions
+
+---
+
+🚀 **Happy Coding!** 🎯
