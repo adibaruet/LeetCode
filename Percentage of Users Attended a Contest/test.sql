@@ -6,4 +6,4 @@ SELECT
     ) AS percentage
 FROM Register
 GROUP BY contest_id
-ORDER BY contest_id;
+ORDER BY percentage DESC, contest_id ASC;
