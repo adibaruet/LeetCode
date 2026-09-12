@@ -9,4 +9,4 @@ SELECT
         THEN 'Yes'
         ELSE 'No'
     END AS triangle
-FROM Triangle;
+FROM Triangle
