@@ -37,4 +37,4 @@ A palindrome number reads the same forward and backward.
 
 ## Language
 
-C++
+C++, Python 3
