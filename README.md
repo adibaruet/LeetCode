@@ -4,7 +4,6 @@ Welcome to my **LeetCode Practice Repository**!
 
 This repository contains my solutions to LeetCode problems as I work on improving my **problem-solving, SQL, algorithms, and data structures** skills.
 
-The goal is simple: **practice consistently, understand the logic, and write efficient solutions.** 💻✨
 
 ---
 
