@@ -7,55 +7,7 @@ We use three important variables:
 
 The `last[256]` array stores the last position where each character appeared. Initially, every position is `-1`, meaning the character has not appeared yet.
 
-### Example: `"abcabcbb"`
 
-Follow the sliding window
-
-Previous
-
-Step 3 of 5
-
-Next
-
-## a
-
-0
-
-## b
-
-1
-
-## c
-
-2
-
-## a
-
-3
-
-## b
-
-4
-
-## c
-
-5
-
-## b
-
-6
-
-## b
-
-7
-
-Current substring: abc
-
-Current maximum length: 3
-
-Green cells show the current valid window in this simplified walkthrough.
-
-When a repeated character appears inside the current window, move `left` to the position immediately after its previous occurrence.
 
 For example, in `"abcabcbb"`, when the second `a` appears at index `3`, the previous `a` was at index `0`. So:
 
