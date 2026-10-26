@@ -70,9 +70,7 @@ git clone https://github.com/adibaruet/leetcode.git
 cd leetcode
 ```
 
-Browse the solutions by topic or problem and use them as a reference while practicing.
 
-> **Note:** Try solving each problem yourself before checking the solution. 👀
 
 ---
 
