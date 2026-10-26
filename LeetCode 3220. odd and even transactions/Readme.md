@@ -25,4 +25,4 @@ It means:
 - If the sum exists → return the sum.
 - If the sum is `NULL` → return `0`.
 
-Easy trick to remember: `COALESCE(NULL, 0)` = If NULL, use 0. 😊
+Easy trick to remember: `COALESCE(NULL, 0)` = If NULL, use 0. 
