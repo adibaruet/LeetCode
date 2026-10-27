@@ -7,12 +7,11 @@ SELECT
             CASE
                 WHEN word ~ '^[^A-Za-z]' THEN word
                 WHEN word LIKE '%-%' THEN
-                    (
-                        SELECT string_agg(
-                            upper(left(part, 1)) || lower(substring(part FROM 2)),
-                            '-'
-                        )
-                        FROM unnest(string_to_array(word, '-')) AS part
+                    regexp_replace(
+                        word,
+                        '(^|-)([A-Za-z]+)',
+                        '\1' || '\2',
+                        'g'
                     )
                 ELSE upper(left(word, 1)) || lower(substring(word FROM 2))
             END,
