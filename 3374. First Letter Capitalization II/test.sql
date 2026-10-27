@@ -1,4 +1,3 @@
-
 SELECT
     content_id,
     content_text AS original_text,
@@ -6,13 +5,9 @@ SELECT
         SELECT string_agg(
             CASE
                 WHEN word ~ '^[^A-Za-z]' THEN word
-                WHEN word LIKE '%-%' THEN (
+                WHEN word ~ '^[A-Za-z]+(-[A-Za-z]+)+$' THEN (
                     SELECT string_agg(
-                        CASE
-                            WHEN part ~ '^[A-Za-z]+$'
-                            THEN upper(left(part, 1)) || lower(substring(part FROM 2))
-                            ELSE part
-                        END,
+                        upper(left(part, 1)) || lower(substring(part FROM 2)),
                         '-' ORDER BY idx
                     )
                     FROM unnest(string_to_array(word, '-'))
