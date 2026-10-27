@@ -1,4 +1,4 @@
-
+Isomorphic means the characters in two strings follow the same pattern.
 For each position `i`:
 
 1. Check whether `s[i]` and `t[i]` were last seen at the same position.
